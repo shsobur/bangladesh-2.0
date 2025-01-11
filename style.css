@@ -106,7 +106,6 @@
 
 /* Pillar content style__ST */
 
-
 .main_pillar_container {
   max-width: 1536px;
   margin: auto;
@@ -129,7 +128,7 @@
   margin-top: 20px;
   padding: 20px;
   border-radius: 8px;
-  border: 2px solid #0E0E0E26;
+  border: 2px solid #0e0e0e26;
 }
 
 .pillar_card_contents h3 {
@@ -139,8 +138,97 @@
 }
 
 .pillar_card_contents p {
-  color: #0E0E0EB3;
+  color: #0e0e0eb3;
 }
 
-
 /* Pillar content style__END */
+
+/* Vision content style__ST */
+
+.main_vision_container {
+  max-width: 1536px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.main_vision_inner_container {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_vision_container h2 {
+  font-size: 2.2rem;
+  color: #151515;
+}
+
+.main_vision_container p {
+  padding: 30px 0;
+  color: #0e0e0eb3;
+}
+
+#vision_card_1 {
+  background-color: #5490f533;
+}
+
+#vision_card_2 {
+  background-color: #c6e4d6;
+}
+
+#vision_card_3 {
+  background-color: #f7ebcf;
+}
+
+.vision_card_container {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.vision_card_container h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.vision_card_container p {
+  padding: 0;
+  margin-top: 30px;
+}
+
+.vision_card_container button {
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#vision_btn_1 {
+  background-color: #5490f5;
+}
+
+#vision_btn_1:hover {
+  background-color: #4e84e2;
+}
+
+#vision_btn_2 {
+  background-color: #09a15c;
+}
+
+#vision_btn_2:hover {
+  background-color: #098f52;
+}
+
+#vision_btn_3 {
+  background-color: #ffc239;
+}
+
+#vision_btn_3:hover {
+  background-color: #dda931;
+}
+
+/* Vision content style__END */
