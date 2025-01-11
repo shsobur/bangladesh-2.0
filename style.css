@@ -133,8 +133,14 @@ body {
   margin-top: 20px;
   padding: 20px;
   border-radius: 8px;
+  cursor: pointer;
   background-color: #ffffff;
   border: 2px solid #0e0e0e26;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main_pillar_card_container:hover {
+  transform: scale(1.1);
 }
 
 .pillar_card_contents h3 {
@@ -188,6 +194,7 @@ body {
 
 .vision_card_container {
   padding: 20px;
+  cursor: pointer;
   border-radius: 8px;
 }
 
@@ -243,6 +250,9 @@ body {
   padding: 20px;
   background-color: #ffffff;
   border: 2px solid #0e0e0e26;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  background-image: url(./assets/quote-bg.png);
 }
 
 .main_govt_info_container article p {
