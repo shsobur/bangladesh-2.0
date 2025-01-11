@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Fira Sans", serif;
 }
 
 /* Navbar content style__ST */
@@ -20,15 +21,14 @@
   justify-content: space-between;
 }
 
-.main_navbar_container ul li{
+.main_navbar_container ul li {
   list-style: none;
   cursor: pointer;
 }
 
 .main_navbar_container ul li h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #151515;
-  font-family: "Fira Sans", serif;
 }
 
 .main_navbar_container ul li button {
@@ -47,3 +47,59 @@
 }
 
 /* Navbar content style__END */
+
+/* Banner content style__ST */
+
+.main_banner_container {
+  max-width: 1536px;
+  margin: auto;
+  padding: 100px 80px;
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Banner left side content style__ */
+
+.banner_left_side_container {
+  width: 50%;
+}
+
+.banner_left_side_container h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e0e0e80;
+}
+
+.banner_left_side_container h1 {
+  font-size: 3.2rem;
+  padding: 50px 0;
+}
+
+.banner_left_side_container button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #006a50;
+}
+
+.banner_left_side_container button:hover {
+  background-color: #015843;
+}
+
+/* Banner right side content style__ */
+
+.banner_right_side_container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Banner content style__END */
