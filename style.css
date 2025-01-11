@@ -231,4 +231,28 @@
   background-color: #dda931;
 }
 
+.main_govt_info_container {
+  margin-top: 50px;
+  border-radius: 8px;
+  padding: 20px;
+  border: 2px solid #0e0e0e26;
+}
+
+.main_govt_info_container article p {
+  padding: 0;
+  line-height: 25px;
+}
+
+.main_govt_info_container h2 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.main_govt_info_container h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0e99;
+}
+
 /* Vision content style__END */
